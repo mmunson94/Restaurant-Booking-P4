@@ -1,3 +1,59 @@
+body {
+    background-color: aqua;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: black;
+    padding-top: 25px;
+    height: 100px;
+
+
+}
+
 h1 {
-    color: red;
+    color: green;
+    background-color: black;
+    text-align: center;
+    
+}
+
+.nav-bar {
+    text-align: right;
+}
+
+.menu-btn {
+    border-radius: 25%;
+    height: 75px;
+    width: 105px;
+    background-color: green;
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.login-btn {
+
+}
+
+.menu {
+    text-align: center;
+}
+
+
+.reservations {
+    text-align: center;
+}
+
+footer {
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    
+
 }
