@@ -79,6 +79,32 @@ footer {
     width: 100%;
     background-color: black;
     text-align: center;
+}
+
+#contact-us {
+    max-height: 30px;
+    margin-top: 5px;
+    padding-bottom: 5px;
+}
 
 
+
+.social-networks {
+    text-align: center;
+    max-height: 85px;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #fafafa;
+}
+
+footer > div {
+    text-align: center;
 }
