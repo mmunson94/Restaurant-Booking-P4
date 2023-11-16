@@ -76,6 +76,17 @@ h1 {
     color: black;
 }
 
+.gallery-btn {
+    border-radius: 25%;
+    height: 75px;
+    width: 105px;
+    background-color: #FFFDD0;
+    font-size: 25px;
+    font-weight: 100;
+    /* margin: 50px; */
+    color: black;
+}
+
 #hero-outer {
     /* height: 900px;
     width: 100%; */
