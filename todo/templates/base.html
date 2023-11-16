@@ -12,8 +12,25 @@
 </head>
 <body>
     <header>
-        <h1>Restaurant Name</h1>
+        <h1>Lartista</h1>
     </header>
+    <section>
+        <p class="nav-bar">
+            <a href="{% url 'hello' %}">
+                <button class="home-btn">Home</button>
+            </a>
+            <a href="{% url 'login' %}">
+                <button class="login-btn">Login</button>
+            </a>
+            <a href="">
+                <button class="sign-up-btn">Sign up</button>
+            </a>
+            <a href="https://www.beefeater.co.uk/en-gb/main-menu/beefeater_main_menu_band4.pdf" target="_blank">
+                <button class="menu-btn">Menu</button>
+            </a>
+        <p></p>
+        
+    </section>
     <main>
         {% block content %}
         {% endblock %}
@@ -24,9 +41,8 @@
     
     <footer>
         <div id="contact-us">
-            <h2>Contact Us</h2>
             <p>Phone: 0161 676 7770</p>
-            <p>Address: Sir Matt Busby Way, Old Trafford, Stretford, Manchester M16 0RA</p>
+            <p>Address: </p>
         </div>
         <!-- social media links -->
         <ul class="social-networks">

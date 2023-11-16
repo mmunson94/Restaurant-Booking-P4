@@ -1,5 +1,5 @@
 body {
-    background-color: aqua;
+    background-color: white;
     min-height: 100vh;
     margin: 0;
     padding: 0;
@@ -10,10 +10,11 @@ header {
     /* background-color: black;
     padding-top: 25px;
     height: 100px; */
-    background-color: black;
-    color: white;
+    background-color: #FFFDD0;
+    color: black;
     padding: 20px 0;
     text-align: center;
+    font-size: 50px;
 
 
 }
@@ -35,32 +36,58 @@ h1 {
     border-radius: 25%;
     height: 75px;
     width: 105px;
-    background-color: green;
+    background-color: #FFFDD0;
     font-size: 25px;
     font-weight: 100;
-    margin: 50px;
+    /* margin: 50px; */
+    color: black;
 }
 
 .sign-up-btn {
     border-radius: 25%;
     height: 75px;
     width: 105px;
-    background-color: green;
+    background-color: #FFFDD0;
     font-size: 25px;
     font-weight: 100;
-    margin: 50px;
+    /* margin: 50px; */
+    color: black;
 }
 
 .login-btn {
     border-radius: 25%;
     height: 75px;
     width: 105px;
-    background-color: green;
+    background-color: #FFFDD0;
     font-size: 25px;
     font-weight: 100;
-    margin: 50px;
+    /* margin: 50px; */
+    color: black;
 }
 
+.home-btn {
+    border-radius: 25%;
+    height: 75px;
+    width: 105px;
+    background-color: #FFFDD0;
+    font-size: 25px;
+    font-weight: 100;
+    /* margin: 50px; */
+    color: black;
+}
+
+#hero-outer {
+    /* height: 900px;
+    width: 100%; */
+    overflow: hidden;
+    margin-top: 5px;
+}
+
+#hero-image {
+    height: 900px;
+    width: 100%;
+    background: url(../images/italian-dining.webp) no-repeat center center;
+}
 
 .menu {
     text-align: center;
@@ -72,19 +99,18 @@ h1 {
 }
 
 footer {
-    color: white;
+    color: black;
     padding: 10px 0;
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: black;
+    background-color: #FFFDD0;
     text-align: center;
+    max-height: fit-content;
 }
 
 #contact-us {
-    max-height: 30px;
-    margin-top: 5px;
-    padding-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 
@@ -99,10 +125,10 @@ footer {
 }
 
 .social-networks i {
-    font-size: 160%;
+    font-size: 200%;
     margin: 1%;
     padding: 5%;
-    color: #fafafa;
+    color: black;
 }
 
 footer > div {
