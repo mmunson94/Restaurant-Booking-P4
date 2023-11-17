@@ -98,6 +98,7 @@ h1 {
     height: 900px;
     width: 100%;
     background: url(../images/italian-dining.webp) no-repeat center center;
+    background-position: center top;
 }
 
 .menu {
@@ -118,17 +119,19 @@ footer {
     background-color: #FFFDD0;
     text-align: center;
     max-height: fit-content;
+    height: 100px;
 }
 
 #contact-us {
-    margin-bottom: 10px;
+    font-size: 25spx;
 }
+
 
 
 
 .social-networks {
     text-align: center;
-    max-height: 85px;
+    position: relative;
 }
 
 .social-networks > li {
