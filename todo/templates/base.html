@@ -16,7 +16,7 @@
     </header>
     <section>
         <p class="nav-bar">
-            <a href="{% url 'hello' %}">
+            <a href="{% url 'home' %}">
                 <button class="home-btn">Home</button>
             </a>
             <a href="{% url 'login' %}">
@@ -25,10 +25,13 @@
             <a href="">
                 <button class="sign-up-btn">Sign up</button>
             </a>
+            <a href="{% url 'booking_page' %}">
+                <button class="booking-btn">Book</button>
+            </a>
             <a href="https://www.beefeater.co.uk/en-gb/main-menu/beefeater_main_menu_band4.pdf" target="_blank">
                 <button class="menu-btn">Menu</button>
             </a>
-            <a href="">
+            <a href="{% url 'gallery' %}">
                 <button class="gallery-btn">Gallery</button>
             </a>
         <p></p>
@@ -44,7 +47,8 @@
     
     <footer>
         <div id="contact-us">
-            <p><b>Phone:<b> 0161 676 7770 %nbsp;%nbsp;%nbsp;%nbsp;%nbsp; <b>Adress:<b> 9 Eastcheap, Letchworth Garden City SG6 3DG</p>
+            <p><b>Phone:<b> 0161 676 7770 &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+                <b>Adress:<b> 9 Eastcheap, Letchworth Garden City SG6 3DG</p>
         </div>
         <!-- social media links -->
         <ul class="social-networks">
