@@ -167,7 +167,7 @@ footer {
     vertical-align: top;
     display: flex;
     justify-content: center;
-    gap: 25px;
+    gap: 45px;
 }
 
 .social-networks > li {
@@ -175,7 +175,7 @@ footer {
 }
 
 .social-networks i {
-    font-size: 20px;
+    font-size: 30px;
     margin: 1%;
     padding: 5%;
     color: black;
