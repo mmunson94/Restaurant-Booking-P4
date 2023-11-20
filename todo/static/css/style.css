@@ -30,6 +30,30 @@ h1 {
 .nav-bar {
     text-align: center;
 }
+.home-btn:hover {
+    background-color: bisque;
+    cursor: pointer;
+}
+.menu-btn:hover {
+    background-color: bisque;
+    cursor: pointer;
+}
+.sign-up-btn:hover {
+    background-color: bisque;
+    cursor: pointer;
+}
+.login-btn:hover {
+    background-color: bisque;
+    cursor: pointer;
+}
+.booking-btn:hover {
+    background-color: bisque;
+    cursor: pointer;
+}
+.gallery-btn:hover {
+    background-color: bisque;
+    cursor: pointer;
+}
 
 .menu-btn {
     border-radius: 25%;
