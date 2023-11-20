@@ -18,4 +18,12 @@
     <p>Add Timeslot</p>
     <a href="{% url 'add_timeslot' %}">Add</a>
 </div>
+
+{% for booking in bookings %}
+<div>
+        <p>Booking ID: {{ booking.id }}</p>
+        <p>Date: {{ booking.date }}</p>
+</div>
+
+{% endfor %}
 {% endblock %}
