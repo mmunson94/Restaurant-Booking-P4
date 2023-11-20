@@ -135,6 +135,7 @@ h1 {
     background-position: center top;
 }
 
+
 .menu {
     text-align: center;
 }
@@ -152,20 +153,21 @@ footer {
     width: 100%;
     background-color: #FFFDD0;
     text-align: center;
-    max-height: fit-content;
+    /* max-height: fit-content; */
     height: 100px;
 }
 
 #contact-us {
-    font-size: 25spx;
+    font-size: 15px;
 }
-
-
 
 
 .social-networks {
     text-align: center;
-    position: relative;
+    vertical-align: top;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
 }
 
 .social-networks > li {
@@ -173,7 +175,7 @@ footer {
 }
 
 .social-networks i {
-    font-size: 200%;
+    font-size: 20px;
     margin: 1%;
     padding: 5%;
     color: black;
@@ -182,3 +184,4 @@ footer {
 footer > div {
     text-align: center;
 }
+
