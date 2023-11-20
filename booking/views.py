@@ -2,6 +2,7 @@ from django.shortcuts import render, redirect
 from .models import BookingDate, TimeSlot, Booking
 from .forms import TimeSlotForm
 from django.contrib import messages
+from datetime import date, timedelta
 
 # Create your views here.
 def view_all(request):
@@ -19,6 +20,11 @@ def create_booking(request):
     return render(request, 'booking/create.html', {'dates' : dates})
 
 def add_timeslot(request):
+    for i in range(7):
+        day = date.today() + timedelta(days=i)
+        BookingDate.objects.get_or_create(date=day)
+
+
     if request.method == 'POST':
         form = TimeSlotForm(request.POST)
         if form.is_valid():

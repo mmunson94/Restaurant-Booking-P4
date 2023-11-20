@@ -8,16 +8,17 @@
 
 
     {% for date in dates %}
-    <fieldset>
-        <legend>Available Slots for {{ date.date }}</legend>
-        {% for slot in date.time_slots.all %}
-        <div>
-            <input type="radio" name="booking_slot" id="slot{{ slot.id }}" value="{{ slot.id }}">
-            <label for="slot{{ slot.id }}">{{ slot.time }}</label>
-        </div>
-
-        {% endfor %}
-    </fieldset>
+        {% if date.time_slots.all %}
+        <fieldset>  
+            <legend>Available Slots for {{ date.date }}</legend>
+            {% for slot in date.time_slots.all %}
+            <div>
+                <input type="radio" name="booking_slot" id="slot{{ slot.id }}" value="{{ slot.id }}">
+                <label for="slot{{ slot.id }}">{{ slot.time }}</label>
+            </div>
+            {% endfor %}
+        </fieldset>
+        {% endif %}
     {% endfor %}
 
     <button type="submit">Book Table</button>
