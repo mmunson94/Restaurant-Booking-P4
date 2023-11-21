@@ -254,6 +254,7 @@ footer > div {
     justify-content: center;
     align-items: center;
     background-position: center top;
+    block-size: fit-content;
 }
 
 .login-box {
@@ -264,7 +265,6 @@ footer > div {
     justify-content: center;
     border-radius: 30px;
     width: 320px;
-    height: 120px;
     padding-top: 20px;
 }
 
