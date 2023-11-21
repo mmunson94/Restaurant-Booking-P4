@@ -37,7 +37,10 @@ def edit_booking(request, booking_id):
     return render(request, 'booking/edit_booking.html', {'form': form, 'booking_id': booking_id})
 
 def delete_booking(request, booking_id):
-    pass
+    booking = get_object_or_404(Booking, id=booking_id, user=request.user)
+    booking.delete()
+    messages.success(request, 'Booking cancelled successfully')
+    return redirect('booking_page')
 
 def add_timeslot(request):
     for i in range(7):
