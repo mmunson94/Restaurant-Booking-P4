@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<h2>Welcome to my booking page</h2>
+<h2>Booking</h2>
 
 {% if messages %}
     {% for message in messages %}
@@ -10,13 +10,11 @@
 {% endif %}
 
 <div class="column">
-    <section>Customers</section>
-    <p>Make a reservation</p>
-    <a href="{% url 'create_booking' %}">Book</a>
+    <section>Customers:</section>
+    <a href="{% url 'create_booking' %}">Book a table</a>
 
-    <section>Admin</section>
-    <p>Add Timeslot</p>
-    <a href="{% url 'add_timeslot' %}">Add</a>
+    <section>Admin:</section>
+    <a href="{% url 'add_timeslot' %}">Add a timeslot</a>
 </div>
 
 {% for booking in bookings %}

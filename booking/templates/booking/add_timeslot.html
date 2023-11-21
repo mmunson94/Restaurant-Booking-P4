@@ -1,11 +1,12 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<h2>Add slots for user to book a table</h2>
-
-<form method="post">
-    {% csrf_token %}
-    {{ form.as_p }}
-    <button type="submit"> Add Time Slot</button>
-</form>
+<h2>Add Timeslot</h2>
+<div class="add-timeslot-container">
+    <form class="add-timeslot-box" method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit"> Add Time Slot</button>
+    </form>
+</div>
 {% endblock %}
