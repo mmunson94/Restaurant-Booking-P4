@@ -296,3 +296,17 @@ footer > div {
     padding-top: 20px;
     align-items: left;
 }
+
+@media screen and (min-width: 200px) and (max-width: 480px) {
+    header {
+        font-size: 25px;
+    }
+
+    #contact-us {
+        font-size: 15px;
+    }
+
+    .about-us-container {
+        font-size: 20px;
+    }
+}
