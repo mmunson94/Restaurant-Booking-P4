@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color: cornsilk;
     min-height: 100vh;
     margin: 0;
     padding: 0;
@@ -30,6 +30,7 @@ h1 {
 .nav-bar {
     text-align: center;
 }
+
 .home-btn:hover {
     background-color: bisque;
     cursor: pointer;
@@ -126,6 +127,7 @@ h1 {
     width: 100%; */
     overflow: hidden;
     margin-top: 5px;
+    padding-top: 20px;
 }
 
 #hero-image {
@@ -133,6 +135,41 @@ h1 {
     width: 100%;
     background: url(../images/italian-dining.webp) no-repeat center center;
     background-position: center top;
+    background-size: cover;
+   
+}
+
+.food-img {
+    background-size: cover;
+    width: 100%;
+}
+
+.desert-img {
+    width: 100%;
+}
+
+.pizza-img {
+    width: 100%;
+}
+
+.pasta-img {
+    width: 100%;
+}
+
+.drinks-img {
+    width: 100%;
+}
+
+.chef-pizza-img {
+    width: 100%;
+}
+
+.fish-img {
+    width: 100%;
+}
+
+#about-us {
+    height: 500px;
 }
 
 
@@ -158,7 +195,7 @@ footer {
 }
 
 #contact-us {
-    font-size: 15px;
+    font-size: 20px;
 }
 
 
