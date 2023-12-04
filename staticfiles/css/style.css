@@ -1,0 +1,312 @@
+body {
+    background-color: cornsilk;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+}
+
+header {
+    /* background-color: black;
+    padding-top: 25px;
+    height: 100px; */
+    background-color: #FFFDD0;
+    color: black;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 50px;
+}
+
+h1 {
+    /* color: green;
+    background-color: black;
+    text-align: center;
+     */
+     margin: 0;
+}
+
+h2 {
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.nav-bar {
+    text-align: center;
+}
+
+.home-btn:hover {
+    background-color: bisque;
+    cursor: pointer;
+}
+.menu-btn:hover {
+    background-color: bisque;
+    cursor: pointer;
+}
+.sign-up-btn:hover {
+    background-color: bisque;
+    cursor: pointer;
+}
+.login-btn:hover {
+    background-color: bisque;
+    cursor: pointer;
+}
+.booking-btn:hover {
+    background-color: bisque;
+    cursor: pointer;
+}
+.gallery-btn:hover {
+    background-color: bisque;
+    cursor: pointer;
+}
+
+.menu-btn {
+    border-radius: 25%;
+    height: 75px;
+    width: 105px;
+    background-color: #FFFDD0;
+    font-size: 25px;
+    font-weight: 100;
+    /* margin: 50px; */
+    color: black;
+}
+
+.sign-up-btn {
+    border-radius: 25%;
+    height: 75px;
+    width: 105px;
+    background-color: #FFFDD0;
+    font-size: 25px;
+    font-weight: 100;
+    /* margin: 50px; */
+    color: black;
+}
+
+.login-btn {
+    border-radius: 25%;
+    height: 75px;
+    width: 105px;
+    background-color: #FFFDD0;
+    font-size: 25px;
+    font-weight: 100;
+    /* margin: 50px; */
+    color: black;
+}
+
+.home-btn {
+    border-radius: 25%;
+    height: 75px;
+    width: 105px;
+    background-color: #FFFDD0;
+    font-size: 25px;
+    font-weight: 100;
+    /* margin: 50px; */
+    color: black;
+}
+
+.booking-btn {
+    border-radius: 25%;
+    height: 75px;
+    width: 105px;
+    background-color: #FFFDD0;
+    font-size: 25px;
+    font-weight: 100;
+    /* margin: 50px; */
+    color: black;
+}
+
+.gallery-btn {
+    border-radius: 25%;
+    height: 75px;
+    width: 105px;
+    background-color: #FFFDD0;
+    font-size: 25px;
+    font-weight: 100;
+    /* margin: 50px; */
+    color: black;
+}
+
+.create-account-btn {
+    text-align: center;
+}
+
+#hero-outer {
+    /* height: 900px;
+    width: 100%; */
+    overflow: hidden;
+    margin-top: 5px;
+    padding-top: 20px;
+}
+
+#hero-image {
+    height: 900px;
+    width: 100%;
+    background: url(../images/italian-dining.webp) no-repeat center center;
+    background-position: center top;
+    background-size: cover;
+   
+}
+
+
+.about-us-container {
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    font-size: 1.5rem;
+    padding-bottom: 150px;
+}
+
+
+.food-img {
+    background-size: cover;
+    width: 100%;
+}
+
+.desert-img {
+    width: 100%;
+}
+
+.pizza-img {
+    width: 100%;
+}
+
+.pasta-img {
+    width: 100%;
+}
+
+.drinks-img {
+    width: 100%;
+}
+
+.chef-pizza-img {
+    width: 100%;
+}
+
+.fish-img {
+    width: 100%;
+}
+
+#about-us {
+    height: 500px;
+}
+
+
+.menu {
+    text-align: center;
+}
+
+.reservations {
+    text-align: center;
+}
+
+footer {
+    color: black;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #FFFDD0;
+    text-align: center;
+    /* max-height: fit-content; */
+    height: 100px;
+}
+
+#contact-us {
+    font-size: 20px;
+}
+
+
+.social-networks {
+    text-align: center;
+    vertical-align: top;
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 30px;
+    margin: 1%;
+    padding: 5%;
+    color: black;
+}
+
+footer > div {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.column {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
+
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center top;
+    block-size: fit-content;
+}
+
+.login-box {
+    border: 5px solid black;
+    padding-bottom: 13px;
+    background-color: lightblue;
+    width: fit-content;
+    justify-content: center;
+    border-radius: 30px;
+    width: 320px;
+    padding-top: 20px;
+}
+
+.sign-up-container {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    margin-right: 15px;
+    margin-left: 15px;
+    padding-bottom: 60px;
+}
+
+.add-timeslot-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center top;
+}
+
+.add-timeslot-box {
+    border: 5px solid black;
+    padding-bottom: 13px;
+    background-color: lightblue;
+    width: fit-content;
+    justify-content: center;
+    border-radius: 30px;
+    width: 320px;
+    height: 120px;
+    padding-top: 20px;
+    align-items: left;
+}
+
+@media screen and (min-width: 200px) and (max-width: 480px) {
+    header {
+        font-size: 24px;
+    }
+
+    #contact-us {
+        font-size: 15px;
+    }
+
+    .about-us-container {
+        font-size: 20px;
+    }
+}

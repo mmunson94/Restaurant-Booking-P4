@@ -27,3 +27,4 @@ urlpatterns = [
     path('booking/', include('booking.urls')),
     path('signup/', signup, name='signup')
 ]
+
